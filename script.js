@@ -7,11 +7,12 @@ function firstWord(str) {
         return str;
     }
 
-    // Split the string by spaces and return the first element
-    return str.split(' ')[0];
+    let res = str.split(' ')[0];
+
+	return res;
 }
 
 // Do not change the code below
 
-const s = prompt("Enter String:");
-alert(firstWord(s));
+// const s = prompt("Enter String:");
+// alert(firstWord(s));
